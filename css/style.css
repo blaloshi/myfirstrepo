@@ -202,7 +202,12 @@ p {
   }
 }
 
-@media screen and (max-width: 697px) {
+@media screen and (max-width: 800px) {
+  body {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
   h1 {
     padding-top: 2rem;
     padding-left: 2rem;
@@ -223,5 +228,89 @@ p {
   }
   .title p {
     padding: 2rem 3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding-top: 0.1rem;
+  }
+  .section {
+    margin: 3rem;
+  }
+  .leftbox {
+    height: 65rem;
+    position: relative;
+    top: -2rem;
+  }
+  .top {
+    margin: 1rem 1rem 0 2.5rem;
+    padding: 1rem 2rem 1.5rem 0px;
+  }
+  h1 {
+    padding-top: 1rem;
+    padding-left: 1rem;
+
+    font-size: 1rem;
+  }
+  h3 {
+    padding-left: 1rem;
+
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 490px) {
+  .container {
+    width: 100%;
+  }
+
+  .top {
+    margin: 1rem 1rem 0 2.5rem;
+    padding: 1rem 2rem 1.5rem 0px;
+  }
+  h1 {
+    padding-top: 1rem;
+    padding-left: 1rem;
+
+    font-size: 1rem;
+  }
+  h3 {
+    padding-left: 1rem;
+
+    font-size: 1.1rem;
+  }
+  .bottom {
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .container {
+    width: 100%;
+  }
+
+  .top {
+    margin: 0.5rem 0.5rem 0 1rem;
+    padding: 0.5rem 1rem 0.75rem 0px;
+  }
+  h1 {
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+
+    font-size: 0.5rem;
+  }
+  h3 {
+    padding-left: 0.5rem;
+
+    font-size: 1rem;
+  }
+
+  .bottom {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .icon1 {
+    font-size: 2rem;
+    padding: 1rem 2.5rem;
   }
 }
